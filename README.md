@@ -188,7 +188,7 @@ NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 
 Crowd Pulse X is live and accessible here:
 
-https://crowd-pulse-x.vercel.app/
+[🚀 Crowd Pulse X ](https://crowd-pulse-x.vercel.app/)
 
 ---
 
