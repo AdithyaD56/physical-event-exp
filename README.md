@@ -168,3 +168,32 @@ NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
 - **Base**: High-contrast navy (`#0d1117`) with layered glass effects.
 - **Accents**: Electric cyan and emerald for "Clear" status pulses.
 - **Motion**: Framer Motion orchestration for tactical data entrance.
+
+---
+
+## 🏗️ Assumptions Made
+
+- The platform currently uses mock telemetry and simulated venue data instead of live stadium APIs.
+- Crowd density, queue times, and match updates are refreshed through local interval-based simulation.
+- BFS pathfinding assumes venue layouts can be represented as graph nodes and connections.
+- Internet connectivity is available for AETHER and Gemini API requests.
+- Firebase integration is optional and mainly intended for storing telemetry, notifications, and authentication if extended further.
+- Only one venue is actively loaded at a time, although the architecture supports multiple venues.
+- Accessibility routes assume ramps and elevators are predefined in the venue graph.
+- The project is optimized primarily for tablet and desktop dashboard views, with responsive support for mobile devices.
+
+---
+
+## 🌐 Live Demo
+
+Crowd Pulse X is live and accessible here:
+
+https://crowd-pulse-x.vercel.app/
+
+---
+
+## 👨‍💻 Author
+
+Developed by:
+
+**Dhavala V D M Adithya Naidu**
